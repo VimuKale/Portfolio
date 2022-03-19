@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap");
+#navbar-brand {
+  color: yellow;
+  font-family: 'Abril Fatface', cursive;
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+#navbar-brand .dot {
+  font-weight: bold;
+  font-size: larger;
+  -webkit-animation: blinker 2s linear infinite;
+          animation: blinker 2s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#responsive-navbar-nav {
+  color: white !important;
+}
+
+.nav-links .link {
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  margin-right: 1rem;
+}
+
+.nav-links .link .dot {
+  color: black;
+}
+
+.nav-links .link:hover .dot {
+  color: yellow;
+  font-weight: bold;
+  font-size: x-larger;
+  -webkit-animation: blinker 1s linear infinite;
+          animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

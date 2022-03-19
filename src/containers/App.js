@@ -1,10 +1,13 @@
 
+import HeroCover from '../components/HeroCover/HeroCover';
+import NavBar from '../components/NavBar/NavBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <NavBar />
+      <HeroCover />
     </div>
   );
 }
