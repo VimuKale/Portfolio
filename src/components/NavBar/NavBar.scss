@@ -2,14 +2,15 @@
 // @use 'Colors.scss' as Colors;
 
 #navbar-brand{
-    color:yellow;
+    color:#4285F4;
     font-family: 'Abril Fatface', cursive;
+    
     font-size:xx-large;
     font-weight: bold;
     letter-spacing:.1rem;
 
     .dot{
-        // color: white;
+        color: yellow;
         font-weight: bold;
         font-size: larger;
         animation: blinker 2s linear infinite;
@@ -29,6 +30,7 @@
     .link{
         color:white !important;
         font-family: 'Roboto', sans-serif;
+        
         font-size: x-large;
         // font-weight: bold;
         margin-right: 1rem;
@@ -39,7 +41,7 @@
 
         &:hover{
             
-                // color: yellow !important;
+                color: #4285F4 !important;
            
             .dot{
                 color:yellow;

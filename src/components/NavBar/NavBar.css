@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap");
 #navbar-brand {
-  color: yellow;
+  color: #4285F4;
   font-family: 'Abril Fatface', cursive;
   font-size: xx-large;
   font-weight: bold;
@@ -8,6 +8,7 @@
 }
 
 #navbar-brand .dot {
+  color: yellow;
   font-weight: bold;
   font-size: larger;
   -webkit-animation: blinker 2s linear infinite;
@@ -39,6 +40,10 @@
 
 .nav-links .link .dot {
   color: black;
+}
+
+.nav-links .link:hover {
+  color: #4285F4 !important;
 }
 
 .nav-links .link:hover .dot {
